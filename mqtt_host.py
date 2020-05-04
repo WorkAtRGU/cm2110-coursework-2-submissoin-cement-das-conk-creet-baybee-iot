@@ -14,7 +14,7 @@ cput.open()
 from Adafruit_IO import *
 username = "insert Adafruit_IO username"
 activeKey = "insert Adafruit_IO active key"
-aio = Client("insert Adafruit_IO username","insert Adafruit_IO active key") #UserID & KEY
+aio = Client(username, activeKey) #UserID & KEY
 
 
 host          = "node02.myqtthub.com"
